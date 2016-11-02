@@ -3,16 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <title>Simple Live Reload</title>
-
   <!-- Vendor Assets -->
   <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.css">
   <script src="vendor/jquery/dist/jquery.js"></script>
   <script src="vendor/underscore/underscore.js"></script>
-
-  <!-- Authored Assets -->
+  <!-- Authored Assets: Modify main.css and main.js with your files -->
   <link rel="stylesheet" href="assets/css/main.css">
   <script src="assets/js/main.js"></script>
+
+                                   <!--Using Test Suites-->
+                             <!--INSTRUCTIONS FOR ADDING FILES-->
+    <!--ADD YOUR TEST SPECS FILE TO LINE 26. Remember to add file to simple-live-reload folder.-->
+  <!--ADD YOUR JS IMPLEMENTATIONS TO LINE 27. Remember to add files to simple-live-reload folder.-->
+                      <!--UNCOMMENT BELOW COMMENT BLOCK TO USE TESTS-->
+
+<!--
+  <link rel="stylesheet" href="lib/mocha/mocha.css">
+  <script src="lib/mocha/mocha.js"></script>
+  <script src="lib/chai/chai.js"></script>
+  <script src="lib/sinon/sinon.js"></script>
+  <script src="testSuiteSetup.js"></script>
+  <script src="ADD YOUR <TESTSPECS.JS> HERE"></script> 
+  <script src="ADD YOUR <RELATED JS FILES> HERE"</script> 
+-->
 </head>
+
+ <!--Edit below code, save changes, and instantly see changes reflected in your browser.-->
 <body>
   <div class="container">
     <div class="col-md-12">
@@ -20,5 +36,8 @@
       <p>Content Goes Here</p>
     </div>
   </div>
+  
+  <!--container to display your tests-->
+  <div id="mocha"></div>
 </body>
 </html>
